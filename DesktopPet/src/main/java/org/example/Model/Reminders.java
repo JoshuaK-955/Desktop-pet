@@ -10,13 +10,12 @@ public class Reminders {
         remindersArray[0] = "Did you eat today?";
         remindersArray[1] = "Did you drink water?";
         remindersArray[2] = "Did you workout?";
-        remindersArray[3] = "Have user generate their own questions to ask";
-        arraySize = 4;
+        arraySize = 3;
     }
 
     public String getRemindersArray() {
         Random rand = new Random();
-        int randomIndex = rand.nextInt(remindersArray.length);
+        int randomIndex = rand.nextInt(arraySize);
         return remindersArray[randomIndex];
     }
 
