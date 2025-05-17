@@ -1,4 +1,4 @@
-package org.example.Controller;
+package org.example.Model;
 
 public class Stopwatch {
     private final long startTime;
