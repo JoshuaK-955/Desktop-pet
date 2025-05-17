@@ -1,7 +1,11 @@
 package org.example.Controller;
 
+import org.example.View.*;
+
+import static javafx.application.Application.launch;
+
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        launch(GUI.class);
     }
 }
